@@ -1,0 +1,4 @@
+streamlit>=1.30
+ollama>=0.1.7
+feedparser>=6.0  # optional: only for live trend fetch (trends/fetch_trends.py)
+certifi>=2024.0  # optional: fixes macOS SSL cert verification for live feeds

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+reel_smart_env/
+venv/
+
+# Local data / generated artifacts
+data/reel_smart.db
+game_export/rounds.json
+security/findings.json
+
+# OS
+.DS_Store

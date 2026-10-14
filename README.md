@@ -104,12 +104,5 @@ python3 tests/test_clues.py      # 8 tests, pins the bug fixes
 python3 tests/test_scorers.py    # 7 tests, scoring + defenses
 ```
 
-(Both also run under `pytest` if you prefer.)
 
-## A note on scope
 
-The seed data and the original game are OCII work. Before hosting this
-publicly or posting about it, confirm with your team what's shareable. The
-offline-generation + review-gate design means the public never gets a live
-scam generator — that boundary is intentional and is itself part of the
-security story.

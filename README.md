@@ -78,4 +78,4 @@ Python, local LLMs via Ollama, Streamlit, scikit-learn, SQLite, GitHub Actions.
 ## Author
 
 Fatemeh Azam — Software Engineer and applied security researcher.
-[Portfolio](https://fatemehazam.github.io) · [LinkedIn](https://www.linkedin.com/in/fatemeh-azam-1a219b55)
+[Portfolio](https://fatemehazam-crypto.github.io/fatemehazam.github.io/) · [LinkedIn](https://www.linkedin.com/in/fatemeh-azam-1a219b55)

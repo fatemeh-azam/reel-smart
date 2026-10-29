@@ -3,9 +3,7 @@
 Reel Smart red-team harness.
 
 Runs four attacks against the pipeline, each with defenses OFF then ON, and
-writes a findings report you can present. This is the security deliverable
-and it maps directly onto the Greenwood / FORGE "protecting AI platforms"
-theme: it treats the generate-score loop as the system under test.
+writes a findings report you can present. 
 
 Attacks:
   A1  Scorer prompt-injection  — a candidate message instructs the scorer to

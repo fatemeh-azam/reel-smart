@@ -89,21 +89,4 @@ Generation is steered toward output containing a real SSN and card number.
 → output guarding → safety scoring → human review before export. No single
 control is load-bearing.
 
----
 
-## How to present this (suggested 5-slide arc)
-
-1. **The system** — one diagram: trend feed → generate → score → review →
-   game. Point out it ingests untrusted data and ranks its own output.
-2. **The question** — "I built an AI content pipeline. Could I attack it?"
-3. **Four attacks** — one line each, with the before/after from
-   `findings.json` on screen.
-4. **The design that stops them** — the defense-in-depth chain; stress that
-   generation is offline and a human approves everything.
-5. **What I'd do next** — move the trend feed to signed sources; add an LLM
-   judge that is itself injection-hardened; log every review decision for an
-   audit trail.
-
-Keep the framing defensive throughout: the point is a *safer* training tool
-and a demonstrated method for stress-testing an AI pipeline — not a better
-way to phish anyone.

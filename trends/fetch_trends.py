@@ -18,15 +18,15 @@ three boundaries:
      and anything that trips an injection pattern is dropped, not stored.
 
 The live feed only SUGGESTS which scam types are current. It never dictates
-the prompt. Your hand-curated trends.json stays as the trusted fallback.
+the prompt. The hand-curated trends.json stays as the trusted fallback.
 
-Network note: this reaches the internet, so it runs on your machine, not in a
+Network note: this reaches the internet, so it runs on the machine connected to the internet, not in a
 locked-down CI/sandbox. Use --offline to exercise the whole pipeline (including
 the attack tests) against a built-in mock feed with no network.
 
 Run:
   python3 trends/fetch_trends.py --offline        # safe mock feed, no network
-  python3 trends/fetch_trends.py                    # live fetch (on your Mac)
+  python3 trends/fetch_trends.py                    # live fetch 
   python3 trends/fetch_trends.py --offline --dry-run  # show, don't write
 """
 

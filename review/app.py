@@ -7,7 +7,7 @@ The human-in-the-loop. Every generated candidate is shown with:
   * approve / edit / reject controls.
 
 Approved candidates are paired with two legitimate decoys and exported to
-the game's JSON. Generation stays OFFLINE (on your Mac); only approved,
+the game's JSON. Generation stays OFFLINE, only approved,
 reviewed content ever leaves this desk. That review gate is the project's
 core safety control.
 

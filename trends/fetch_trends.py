@@ -52,7 +52,7 @@ FEED_ALLOWLIST = {
 }
 
 # Sources found during live --check that BLOCK scripted RSS access or have no
-# feed. Kept here as documentation (and so you can retry them from a
+# feed. Kept here as documentation (and so we can retry them from a
 # browser-grade fetcher later). The curated trends.json is the fallback.
 #   FTC consumer blog   https://www.consumer.ftc.gov/blog/gd-rss.xml   -> 404 to scripts
 #   FTC consumer-protn  https://www.ftc.gov/feeds/press-release-consumer-protection.xml -> 404 to scripts
